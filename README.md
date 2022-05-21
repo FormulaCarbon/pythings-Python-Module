@@ -2,7 +2,19 @@
 
 ![Version](https://img.shields.io/badge/Version-0.2.0-green)
 ![Status](https://img.shields.io/badge/Status-In%20Dev-green)
-![Status](https://img.shields.io/badge/License-MIT-blue)
+![License](https://img.shields.io/badge/License-MIT-blue)
+
+## About PyThings
+PyThings is a python 3 module that expands the functionality of python. It expands the connectivity of an IDE to the PC, expands the ability of dictionaries, and adds an image scraping and opening functionality.
+
+**Currently Tested Platforms**
+- Windows 11
+
+**Dependencies**
+- urllib.request
+- plyer
+- bs4
+- pillow
 
 ## Importing
 ```
