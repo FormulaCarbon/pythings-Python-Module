@@ -32,9 +32,13 @@ PyThings is a python 3 module that expands the functionality of python. It expan
 
 <a name='installation'></a>
 ## Installation
-Use the python command in the shell, followed by `-m`, then this:
-```python console
-pip install --index-url https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple/ pythings==0.4.4
+**Unix/MacOS:**
+```python shell
+python3 -m pip install --index-url https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple/ pythings==0.4.4
+```
+**Windows:**
+```python shell
+py -m pip install --index-url https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple/ pythings==0.4.4
 ```
 
 <a name='importing'></a>
@@ -60,7 +64,8 @@ pctools = pt.PCTools()
 pctools.pypiinstall(modname, pysrc, modsrc='pypi') # installs a python module on the users end, without importing.
 # modname: name of module. pysrc: use 'web' if user installed from python.org, or 'app' if user downloaded from store. modsrc: 'pypi' for download from pypi, and 'testpypi' for download from testpypi.
 
-pctools.notify(title, desc, appname='pythings',icon=None, time='2', status=None, toast=False) # popup desc notification. see https://www.geeksforgeeks.org/python-desktop-notifier-using-plyer-module/ for documentation.
+pctools.notify(title, desc, appname='pythings',icon=None, time='2', status=None, toast=False) # popup desc notification. 
+# See https://www.geeksforgeeks.org/python-desktop-notifier-using-plyer-module/ for documentation.
 
 pctools.slice_mail(address) # slices an email into username and domain. Outputs a dict formatted like {'username":'pythings', 'domain':'example.com'}.
 # address: email address to be sliced.
