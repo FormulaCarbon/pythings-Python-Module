@@ -1,9 +1,10 @@
 # PyThings Python Module
 
-![Version](https://img.shields.io/badge/Version-0.4.0-green?style=flat)
-![Status](https://img.shields.io/badge/Status-In%20Dev-green?style=flat)
-![License](https://img.shields.io/badge/License-MIT-blue?style=flat)
-![Stage](https://img.shields.io/badge/Stage-Beta%20Testing-orange?style=flat)
+![Version](https://img.shields.io/badge/Version-0.4.0-green?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-In%20Dev-green?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
+![Stage](https://img.shields.io/badge/Stage-Beta%20Testing-orange?style=for-the-badge)
+![IDE](https://img.shields.io/badge/-IDLE-%233776AB?style=for-the-badge&logo=python&logoColor=white)
 
 ## Table of Contents
 1. [About](#about)
@@ -17,13 +18,13 @@
    - [Class: Security](#secure)
 <a name='about'></a> 
 ## About PyThings
-PyThings is a python 3 module that expands the functionality of python. It expands the connectivity of an IDE to the PC, expands the ability of dictionaries, and adds an image scraping and opening functionality.
+PyThings is a python 3 module that expands the functionality of python. It expands the connectivity of an IDE to the PC, expands the ability of dictionaries, adds an image scraping and opening functionality, add more math functions, and add an ecryption/decryption feature.
 
 **Currently Tested Platforms**
 - Windows 11
 
 **Dependencies**
-- urllib.request
+- setuptools
 - plyer
 - bs4
 - pillow
