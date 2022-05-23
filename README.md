@@ -85,4 +85,4 @@ stools.encrypt(text, filename) # encrypts a string using Fernet from cryptograph
 
 stools.decrypt(enctext, enckey) # decodes text that was encoded with the above method. Returns decoded string.
 # enctext: string of characters returned by stools.encrypt(). enckey: the key saved to filename by stools.encrypt.
-
+```
