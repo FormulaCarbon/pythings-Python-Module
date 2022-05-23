@@ -1,6 +1,6 @@
 # PyThings Python Module
 
-![Version](https://img.shields.io/badge/Version-0.4.0-green?style=for-the-badge)
+![Version](https://img.shields.io/badge/Version-0.4.4-green?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-In%20Dev-green?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
 ![Stage](https://img.shields.io/badge/Stage-Beta%20Testing-orange?style=for-the-badge)
