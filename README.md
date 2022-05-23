@@ -4,7 +4,7 @@
 ![Status](https://img.shields.io/badge/Status-In%20Dev-green?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
 ![Stage](https://img.shields.io/badge/Stage-Beta%20Testing-orange?style=for-the-badge)
-![IDE](https://img.shields.io/badge/Made%20With-Python%20IDLE-%33776AB?style=for-the-badge&logo=python&logoColor=%33776AB)
+![IDE](https://img.shields.io/badge/-Python%20IDLE-%33776AB?style=for-the-badge&logo=python&logoColor=white)
 
 ## Table of Contents
 1. [About](#about)
