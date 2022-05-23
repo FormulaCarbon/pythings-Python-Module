@@ -1,6 +1,6 @@
 # PyThings Python Module
 
-![Version](https://img.shields.io/badge/Version-0.4.5-green?style=for-the-badge)
+![Version](https://img.shields.io/badge/Version-0.4.6-green?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-In%20Dev-green?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
 ![Stage](https://img.shields.io/badge/Stage-Beta%20Testing-orange?style=for-the-badge)
@@ -35,11 +35,11 @@ PyThings is a python 3 module that expands the functionality of python. It expan
 ## Installation
 **Unix/MacOS:**
 ```Shell
-python3 -m pip install --index-url https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple/ pythings==0.4.5
+python3 -m pip install --index-url https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple/ pythings==0.4.6
 ```
 **Windows:**
-```Shell
-py -m pip install --index-url https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple/ pythings==0.4.5
+```Batchfile
+py -m pip install --index-url https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple/ pythings==0.4.6
 ```
 
 <a name='importing'></a>
@@ -119,10 +119,33 @@ stools.encrypt(text, filename) # encrypts a string using Fernet from cryptograph
 stools.decrypt(enctext, enckey) # decodes text that was encoded with the above method. Returns decoded string.
 # enctext: string of characters returned by stools.encrypt(). enckey: the key saved to filename by stools.encrypt.
 ```
+## License
+MIT License
+
+Copyright (c) 2022 Siddharth Kakumanu
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
 <a name='dev'></a>
-## Dev Info
+## Dev Info (Ignore this if you are not a dev)
 **File System: Unbuilt**
-```Bash
+```Shell
 .
 └── App/
     ├── setup.py
@@ -133,7 +156,7 @@ stools.decrypt(enctext, enckey) # decodes text that was encoded with the above m
     └── LICENSE 
 ```
 **File System: Built**
-```Bash
+```Shell
 .
 ├── App/
 │   ├── setup.py
@@ -149,21 +172,27 @@ stools.decrypt(enctext, enckey) # decodes text that was encoded with the above m
 │   ├── README.md
 │   └── LICENSE
 └── dist/
-    ├── pythings-0.4.5.tar.gz
-    └── pything-0.4.5-none-any.whl
+    ├── pythings-0.4.6.tar.gz
+    └── pything-0.4.6-none-any.whl
 ```
 **Build Command**
-```Shell
+```Batchfile
 py Documents\Python_projects\pythings\App\setup.py sdist bdist_wheel
 ```
 **Upload Command**
-```Shell
+```Batchfile
 py -m twine upload --repository testpypi dist/* -u▉▉▉▉▉ -p▉▉▉▉▉
 ```
 **INFO**
-Current Version: 0.4.5
+
+Current Version: 0.4.6
+
 Dev Stage: Beta Testing
+
 Made On: IDLE
+
 Programming Language: Python 3
+
 Natural Language: English (USA)
+
 License: MIT
