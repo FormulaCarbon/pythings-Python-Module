@@ -1,6 +1,6 @@
 # PyThings Python Module
 
-![Version](https://img.shields.io/badge/Version-0.4.4-green?style=for-the-badge)
+![Version](https://img.shields.io/badge/Version-0.4.5-green?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-In%20Dev-green?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
 ![Stage](https://img.shields.io/badge/Stage-Beta%20Testing-orange?style=for-the-badge)
@@ -16,6 +16,7 @@
    - [Class: Images](#imgs)
    - [Class: MathTools](#mtools)
    - [Class: Security](#secure)
+5. [Dev Info](#dev)
 <a name='about'></a> 
 ## About PyThings
 PyThings is a python 3 module that expands the functionality of python. It expands the connectivity of an IDE to the PC, expands the ability of dictionaries, adds an image scraping and opening functionality, add more math functions, and add an ecryption/decryption feature.
@@ -33,12 +34,12 @@ PyThings is a python 3 module that expands the functionality of python. It expan
 <a name='installation'></a>
 ## Installation
 **Unix/MacOS:**
-```python shell
-python3 -m pip install --index-url https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple/ pythings==0.4.4
+```Shell
+python3 -m pip install --index-url https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple/ pythings==0.4.5
 ```
 **Windows:**
-```python shell
-py -m pip install --index-url https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple/ pythings==0.4.4
+```Shell
+py -m pip install --index-url https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple/ pythings==0.4.5
 ```
 
 <a name='importing'></a>
@@ -118,15 +119,51 @@ stools.encrypt(text, filename) # encrypts a string using Fernet from cryptograph
 stools.decrypt(enctext, enckey) # decodes text that was encoded with the above method. Returns decoded string.
 # enctext: string of characters returned by stools.encrypt(). enckey: the key saved to filename by stools.encrypt.
 ```
-
+<a name='dev'></a>
 ## Dev Info
-**File System**
-```language-treeview
-App/
-├── setup.py
-├── Module/
-│   ├── __init__.py
-│   └── pythings.py
-├── README.md
-└── LICENSE
+**File System: Unbuilt**
+```Bash
+.
+└── App/
+    ├── setup.py
+    ├── Module/
+    │   ├── __init__.py
+    │   └── pythings.py
+    ├── README.md
+    └── LICENSE 
 ```
+**File System: Built**
+```Bash
+.
+├── App/
+│   ├── setup.py
+│   ├── pythings.egg-info/
+│   │   ├── top_level.txt
+│   │   ├── SOURCES.txt
+│   │   ├── requires.txt
+│   │   ├── PKG-INFO
+│   │   └── dependency_links.txt
+│   ├── Module/
+│   │   ├── __init__.py
+│   │   └── pythings.py
+│   ├── README.md
+│   └── LICENSE
+└── dist/
+    ├── pythings-0.4.5.tar.gz
+    └── pything-0.4.5-none-any.whl
+```
+**Build Command**
+```Shell
+py Documents\Python_projects\pythings\App\setup.py sdist bdist_wheel
+```
+**Upload Command**
+```Shell
+py -m twine upload --repository testpypi dist/* -u▉▉▉▉▉ -p▉▉▉▉▉
+```
+**INFO**
+Current Version: 0.4.5
+Dev Stage: Beta Testing
+Made On: IDLE
+Programming Language: Python 3
+Natural Language: English (USA)
+License: MIT
