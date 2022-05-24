@@ -37,11 +37,11 @@ To contribute, go [here](https://github.com/FormulaCarbon/pythings-Python-Module
 <a name='installation'></a>
 ## Installation
 **Unix/MacOS:**
-```Shell
+```powershell
 python3 -m pip install --index-url https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple/ pythings==0.4.6
 ```
 **Windows:**
-```Batchfile
+```powershell
 py -m pip install --index-url https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple/ pythings==0.4.6
 ```
 
@@ -149,7 +149,7 @@ SOFTWARE.
 <a name='dev'></a>
 ## Dev Info (Ignore this if you are not a dev)
 **File System: Unbuilt**
-```Shell
+```graphql
 .
 └── App/
     ├── setup.py
@@ -160,7 +160,7 @@ SOFTWARE.
     └── LICENSE 
 ```
 **File System: Built**
-```Shell
+```graphql
 .
 ├── App/
 │   ├── setup.py
@@ -180,11 +180,11 @@ SOFTWARE.
     └── pything-0.4.6-none-any.whl
 ```
 **Build Command**
-```Batchfile
+```powershell
 py Documents\Python_projects\pythings\App\setup.py sdist bdist_wheel
 ```
 **Upload Command**
-```Batchfile
+```powershell
 py -m twine upload --repository testpypi dist/* -u▉▉▉▉▉ -p▉▉▉▉▉
 ```
 **INFO**
