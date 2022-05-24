@@ -1,6 +1,6 @@
 # PyThings Python Module
 
-![Version](https://img.shields.io/badge/Version-0.4.6-green?style=flat)
+![Version](https://img.shields.io/badge/Version-0.4.7-green?style=flat)
 ![Status](https://img.shields.io/badge/Status-In%20Dev-green?style=flat)
 ![License](https://img.shields.io/badge/License-MIT-blue?style=flat)
 ![Stage](https://img.shields.io/badge/Stage-Beta%20Testing-orange?style=flat)
@@ -38,11 +38,11 @@ To contribute, go [here](https://github.com/FormulaCarbon/pythings-Python-Module
 ## Installation
 **Unix/MacOS:**
 ```powershell
-python3 -m pip install --index-url https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple/ pythings==0.4.6
+python3 -m pip install --index-url https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple/ pythings==0.4.7
 ```
 **Windows:**
 ```powershell
-py -m pip install --index-url https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple/ pythings==0.4.6
+py -m pip install --index-url https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple/ pythings==0.4.7
 ```
 
 <a name='importing'></a>
@@ -176,8 +176,8 @@ SOFTWARE.
 │   ├── README.md
 │   └── LICENSE
 └── dist/
-    ├── pythings-0.4.6.tar.gz
-    └── pything-0.4.6-none-any.whl
+    ├── pythings-0.4.7.tar.gz
+    └── pything-0.4.7-none-any.whl
 ```
 **Build Command**
 ```powershell
@@ -189,7 +189,7 @@ py -m twine upload --repository testpypi dist/* -u▉▉▉▉▉ -p▉▉▉▉
 ```
 **INFO**
 
-Current Version: 0.4.6
+Current Version: 0.4.7
 
 Dev Stage: Beta Testing
 
