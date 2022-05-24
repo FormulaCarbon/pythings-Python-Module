@@ -1,9 +1,9 @@
 # PyThings Python Module
 
-![Version](https://img.shields.io/badge/Version-0.4.6-green?style=for-the-badge)
-![Status](https://img.shields.io/badge/Status-In%20Dev-green?style=for-the-badge)
-![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
-![Stage](https://img.shields.io/badge/Stage-Beta%20Testing-orange?style=for-the-badge)
+![Version](https://img.shields.io/badge/Version-0.4.6-green?style=flat)
+![Status](https://img.shields.io/badge/Status-In%20Dev-green?style=flat)
+![License](https://img.shields.io/badge/License-MIT-blue?style=flat)
+![Stage](https://img.shields.io/badge/Stage-Beta%20Testing-orange?style=flat)
 ![IDE](https://img.shields.io/badge/-Python%20IDLE-%33776AB?style=for-the-badge&logo=python&logoColor=white)
 
 ## Table of Contents
@@ -16,6 +16,7 @@
    - [Class: Images](#imgs)
    - [Class: MathTools](#mtools)
    - [Class: Security](#secure)
+6. [License](#license)
 5. [Dev Info](#dev)
 <a name='about'></a> 
 ## About PyThings
@@ -30,6 +31,8 @@ PyThings is a python 3 module that expands the functionality of python. It expan
 - bs4
 - pillow
 - cryptography
+
+To contribute, go [here](https://github.com/FormulaCarbon/pythings-Python-Module/blob/main/CONTRIBUTING.md).
 
 <a name='installation'></a>
 ## Installation
@@ -119,6 +122,7 @@ stools.encrypt(text, filename) # encrypts a string using Fernet from cryptograph
 stools.decrypt(enctext, enckey) # decodes text that was encoded with the above method. Returns decoded string.
 # enctext: string of characters returned by stools.encrypt(). enckey: the key saved to filename by stools.encrypt.
 ```
+<a name='license'></a>
 ## License
 MIT License
 
