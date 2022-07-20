@@ -36,35 +36,66 @@ To contribute, go [here](https://github.com/FormulaCarbon/pythings-Python-Module
 
 <a name='installation'></a>
 ## Installation
-**Unix/MacOS:**
+<details>
+<summary> <b> Unix/MacOS </b> </summary>
+   
 ```powershell
 python3 -m pip install --index-url https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple/ pythings==0.4.7
 ```
-**Windows:**
+</details>
+
+<details>
+   
+<summary> <b> Windows </b> </summary>
+ 
 ```powershell
 py -m pip install --index-url https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple/ pythings==0.4.7
 ```
+</details>
 
 <a name='importing'></a>
+
 ## Importing
+
+<details>
+<summary> <b> pythings </b> </summary>
+
 ```python
 import pythings
 ```
+</details>   
+ 
 or (recommended)
+
+<details>
+<summary> <b> pythings as plt </b> </summary>
+   
 ```python
 import pythings as pt
 ```
+
+</details>    
+
 <a name='commands'></a>
 ## Commands
+
+<details>
+<summary> <b> test </b> </summary>
+   
 ```python
 pythings.test() # prints a test message to shell
 ```
+
+</details>
+
 <a name='pctools'></a>
-**Class: PCTools**
+
+<details>
+<summary> <b> Class: PCTools </b> </summary>
+
 ```python
 import pythings as pt
 pctools = pt.PCTools()
-
 pctools.pypiinstall(modname, pysrc, modsrc='pypi') # installs a python module on the users end, without importing.
 # modname: name of module. pysrc: use 'web' if user installed from python.org, or 'app' if user downloaded from store. modsrc: 'pypi' for download from pypi, and 'testpypi' for download from testpypi.
 
@@ -77,8 +108,14 @@ pctools.slice_mail(address) # slices an email into username and domain. Outputs 
 pctools.debug(filename, encodetype='utf_8') # debugs a file with same errors as the regular shell. Basically for debugging a file on the users device.
 # filename: file to be debugged (must be a .py). encodetype: specifies encoding of the file (defaults to UTF 8)
 ```
+   
+</details>
+
+
 <a name='dict'></a>
-**Class: Dict**
+<details>
+<summary> <b> Class: Dict </b> </summary>
+
 ```python
 import pythings as pt
 dtools = pt.Dict()
@@ -89,8 +126,12 @@ dtools.j2dict(obj, remove=None) # converts json to dictionary. dictionary is nam
 dtools.list2dict(key, content) # converts 2 lists into a dictionary. Shortens code.
 # key: list with key values. content: list with content values that match key values.
 ```
+</details>
+   
 <a name='imgs'></a>
-**Class: Images**
+<details>
+<summary> <b> Class: Images </b> </summary>
+
 ```python
 import pythings as pt
 imgs = pt.Images()
@@ -101,8 +142,13 @@ imgs.getImage(link) # returns all image sources from a webpage as a list
 imgs.openImage(link, query) # opens an image in default image viewer
 # link: direct link to image. query: name of image.
 ```
+</details>   
+   
 <a name='mtools'></a>
-**Class: MathTools**
+
+<details>
+<summary> <b> Class: MathTools </b> </summary>
+
 ```python
 import pythings as pt
 mtools = pt.MathTools()
@@ -110,8 +156,13 @@ mtools = pt.MathTools()
 mtools.fib(num, length='one') # returns the nth integer of the fibonnaci sequence.
 # num: the nth integer. length: 'one' for the nth integer, 'all' for all fibonnaci numbers up to the nth value.
 ```
+</details>   
+
 <a name='secure'></a>
-**Class: Security**
+
+<details>
+<summary> <b> Class: Security </b> </summary>
+
 ```python
 import pythings as pt
 stools = pt.Security()
@@ -122,6 +173,8 @@ stools.encrypt(text, filename) # encrypts a string using Fernet from cryptograph
 stools.decrypt(enctext, enckey) # decodes text that was encoded with the above method. Returns decoded string.
 # enctext: string of characters returned by stools.encrypt(). enckey: the key saved to filename by stools.encrypt.
 ```
+</details>   
+   
 <a name='license'></a>
 ## License
 MIT License
@@ -148,7 +201,10 @@ SOFTWARE.
 
 <a name='dev'></a>
 ## Dev Info (Ignore this if you are not a dev)
-**File System: Unbuilt**
+
+<details>
+<summary> <b> File System: Unbuilt </b> </summary>
+
 ```graphql
 .
 └── App/
@@ -159,7 +215,12 @@ SOFTWARE.
     ├── README.md
     └── LICENSE 
 ```
-**File System: Built**
+</details>   
+
+<details>
+<summary> <b> File System: Built </b> </summary>
+   
+
 ```graphql
 .
 ├── App/
@@ -179,14 +240,24 @@ SOFTWARE.
     ├── pythings-0.4.7.tar.gz
     └── pything-0.4.7-none-any.whl
 ```
-**Build Command**
+</details>   
+
+<details>
+<summary> <b> Build Command </b> </summary>
+
 ```powershell
 py Documents\Python_projects\pythings\App\setup.py sdist bdist_wheel
 ```
-**Upload Command**
+</details>   
+
+<details>
+<summary> <b> Upload Command </b> </summary>
+
 ```powershell
 py -m twine upload --repository testpypi dist/* -u▉▉▉▉▉ -p▉▉▉▉▉
 ```
+</details>   
+   
 **INFO**
 
 Current Version: 0.4.7
