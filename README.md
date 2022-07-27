@@ -277,5 +277,9 @@ Contributions are always welcome! Please read [here](https://github.com/FormulaC
 
 <a name='links'></a>
 ## 🔗 Related Links
+- [Python](https://www.python.org/) 
+- [Module](https://en.wikipedia.org/wiki/Module)
+- [Package](https://python-course.eu/python-tutorial/packages.php#:~:text=A%20package%20is%20basically%20a,as%20a%20package%20by%20Python)
+- [PyPi](https://pypi.org/)
 
 
