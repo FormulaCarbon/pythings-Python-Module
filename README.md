@@ -239,17 +239,15 @@ py -m twine upload --repository testpypi dist/* -u▉▉▉▉▉ -p▉▉▉▉
    
 **INFO**
 
-Current Version: 0.4.7
+- Current Version: 0.4.7
+- Dev Stage: Beta Testing
+- Made On: IDLE
+- Programming Language: Python 3
+- Natural Language: English (USA)       
+- License: MIT   
 
-Dev Stage: Beta Testing
-
-Made On: IDLE
-
-Programming Language: Python 3
-
-Natural Language: English (USA)
-
-License: MIT
 ## ✨Contribution
-Contributions are always welcome! Please read [here](https://github.com/FormulaCarbon/pythings-Python-Module/blob/main/CONTRIBUTING.md) first.
+Contributions are always welcome! Please read [here](https://github.com/FormulaCarbon/pythings-Python-Module/blob/main/CONTRIBUTING.md) first. &emsp;&emsp;([Go Back to top of the page](#about)) 
+
+
 
