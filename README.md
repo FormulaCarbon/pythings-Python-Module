@@ -16,8 +16,9 @@
    - [Class: Images](#imgs)
    - [Class: MathTools](#mtools)
    - [Class: Security](#secure)
-6. [License](#license)
-5. [Dev Info](#dev)
+5. [License](#license)
+6. [Dev Info](#dev)
+7. [Contribution](#contribution)
 <a name='about'></a> 
 ## 📝About PyThings
 PyThings is a python 3 module that expands the functionality of python. It expands the connectivity of an IDE to the PC, expands the ability of dictionaries, adds an image scraping and opening functionality, add more math functions, and add an ecryption/decryption feature.
@@ -244,8 +245,9 @@ py -m twine upload --repository testpypi dist/* -u▉▉▉▉▉ -p▉▉▉▉
 - Made On: IDLE
 - Programming Language: Python 3
 - Natural Language: English (USA)       
-- License: MIT   
+- License: MIT  
 
+<a name='contribution'></a>
 ## ✨Contribution
 Contributions are always welcome! Please read [here](https://github.com/FormulaCarbon/pythings-Python-Module/blob/main/CONTRIBUTING.md) first. &emsp;&emsp;([Go Back to top of the page](#about)) 
 
