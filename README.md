@@ -6,6 +6,21 @@
 ![Stage](https://img.shields.io/badge/Stage-Beta%20Testing-orange?style=flat)
 ![IDE](https://img.shields.io/badge/-Python%20IDLE-%33776AB?style=for-the-badge&logo=python&logoColor=white)
 
+<div align="center">
+    <img src="./images/pythings_logo.png" alt="Logo" width="340" height="150">
+  </a>
+
+
+  <p align="center">
+    An awesome Application to run command line Application in "daily" manner.
+  </p>
+   
+   [About the Project](#project) | [Motivation](#motivation) | [Quick Start](#start) | [Usage](#usage) | [Features](#features) | [License](#license)
+
+  
+</div>
+
+
 ## 🚩Table of Contents
 1. [About](#about)
 2. [Installation](#installation)
