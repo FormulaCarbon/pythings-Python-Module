@@ -11,17 +11,21 @@
   </a>
 
 
-  <p align="center">
-    An awesome Application to run command line Application in "daily" manner.
-  </p>
+  <h3 align="center">
+    An awesome Application to expand the functionalities of python.
+  </h3>
    
-   [About the Project](#project) | [Motivation](#motivation) | [Quick Start](#start) | [Usage](#usage) | [Features](#features) | [License](#license)
+   [Installations](#installation) | [Imports](#importing)  | [Commands](#commands) | [Contribution](#contribution) | [Links](#links) 
 
   
 </div>
 
 
 ## 🚩Table of Contents
+
+<details>
+<summary> <b> Table of content </b> </summary>
+
 1. [About](#about)
 2. [Installation](#installation)
 3. [Importing](#importing)
@@ -34,6 +38,11 @@
 5. [License](#license)
 6. [Dev Info](#dev)
 7. [Contribution](#contribution)
+8. [Related Links](#links)
+
+
+</details>
+
 <a name='about'></a> 
 ## 📝About PyThings
 PyThings is a python 3 module that expands the functionality of python. It expands the connectivity of an IDE to the PC, expands the ability of dictionaries, adds an image scraping and opening functionality, add more math functions, and add an ecryption/decryption feature.
@@ -266,5 +275,7 @@ py -m twine upload --repository testpypi dist/* -u▉▉▉▉▉ -p▉▉▉▉
 ## ✨Contribution
 Contributions are always welcome! Please read [here](https://github.com/FormulaCarbon/pythings-Python-Module/blob/main/CONTRIBUTING.md) first. &emsp;&emsp;([Go Back to top of the page](#about)) 
 
+<a name='links'></a>
+## 🔗 Related Links
 
 
