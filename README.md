@@ -12,7 +12,7 @@
 
 
   <h3 align="center">
-    An awesome Application to expand the functionalities of python.
+    An awesome Application to expand the functionalities of python
   </h3>
    
    [Installations](#installation) | [Imports](#importing)  | [Commands](#commands) | [Contribution](#contribution) | [Links](#links) 
