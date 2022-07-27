@@ -7,7 +7,7 @@
 ![IDE](https://img.shields.io/badge/-Python%20IDLE-%33776AB?style=for-the-badge&logo=python&logoColor=white)
 
 <div align="center">
-    <img src="./image/pythings_logo.png" alt="Logo" width="340" height="150">
+    <img src="./image/logo.png" alt="Logo" width="800" height="450">
   </a>
 
 
