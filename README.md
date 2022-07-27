@@ -6,7 +6,7 @@
 ![Stage](https://img.shields.io/badge/Stage-Beta%20Testing-orange?style=flat)
 ![IDE](https://img.shields.io/badge/-Python%20IDLE-%33776AB?style=for-the-badge&logo=python&logoColor=white)
 
-## Table of Contents
+## 🚩Table of Contents
 1. [About](#about)
 2. [Installation](#installation)
 3. [Importing](#importing)
@@ -16,10 +16,11 @@
    - [Class: Images](#imgs)
    - [Class: MathTools](#mtools)
    - [Class: Security](#secure)
-6. [License](#license)
-5. [Dev Info](#dev)
+5. [License](#license)
+6. [Dev Info](#dev)
+7. [Contribution](#contribution)
 <a name='about'></a> 
-## About PyThings
+## 📝About PyThings
 PyThings is a python 3 module that expands the functionality of python. It expands the connectivity of an IDE to the PC, expands the ability of dictionaries, adds an image scraping and opening functionality, add more math functions, and add an ecryption/decryption feature.
 
 **Currently Tested Platforms**
@@ -32,10 +33,9 @@ PyThings is a python 3 module that expands the functionality of python. It expan
 - pillow
 - cryptography
 
-To contribute, go [here](https://github.com/FormulaCarbon/pythings-Python-Module/blob/main/CONTRIBUTING.md).
 
 <a name='installation'></a>
-## Installation
+## ⚙️Installation
 <details>
 <summary> <b> Unix/MacOS </b> </summary>
    
@@ -55,7 +55,7 @@ py -m pip install --index-url https://test.pypi.org/simple/ --extra-index-url ht
 
 <a name='importing'></a>
 
-## Importing
+## 🛠️Importing
 
 <details>
 <summary> <b> pythings </b> </summary>
@@ -77,7 +77,7 @@ import pythings as pt
 </details>    
 
 <a name='commands'></a>
-## Commands
+## 🤖Commands
 
 <details>
 <summary> <b> test </b> </summary>
@@ -176,31 +176,11 @@ stools.decrypt(enctext, enckey) # decodes text that was encoded with the above m
 </details>   
    
 <a name='license'></a>
-## License
-MIT License
-
-Copyright (c) 2022 Siddharth Kakumanu
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+## ⚖️License
+This project is licensed under the MIT LICENSE. See `LICENSE` for more information.
 
 <a name='dev'></a>
-## Dev Info (Ignore this if you are not a dev)
+## 📚Dev Info (Ignore this if you are not a dev)
 
 <details>
 <summary> <b> File System: Unbuilt </b> </summary>
@@ -260,14 +240,16 @@ py -m twine upload --repository testpypi dist/* -u▉▉▉▉▉ -p▉▉▉▉
    
 **INFO**
 
-Current Version: 0.4.7
+- Current Version: 0.4.7
+- Dev Stage: Beta Testing
+- Made On: IDLE
+- Programming Language: Python 3
+- Natural Language: English (USA)       
+- License: MIT  
 
-Dev Stage: Beta Testing
+<a name='contribution'></a>
+## ✨Contribution
+Contributions are always welcome! Please read [here](https://github.com/FormulaCarbon/pythings-Python-Module/blob/main/CONTRIBUTING.md) first. &emsp;&emsp;([Go Back to top of the page](#about)) 
 
-Made On: IDLE
 
-Programming Language: Python 3
 
-Natural Language: English (USA)
-
-License: MIT
