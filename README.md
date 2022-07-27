@@ -6,7 +6,7 @@
 ![Stage](https://img.shields.io/badge/Stage-Beta%20Testing-orange?style=flat)
 ![IDE](https://img.shields.io/badge/-Python%20IDLE-%33776AB?style=for-the-badge&logo=python&logoColor=white)
 
-## Table of Contents
+## 🚩Table of Contents
 1. [About](#about)
 2. [Installation](#installation)
 3. [Importing](#importing)
@@ -19,7 +19,7 @@
 6. [License](#license)
 5. [Dev Info](#dev)
 <a name='about'></a> 
-## About PyThings
+## 📝About PyThings
 PyThings is a python 3 module that expands the functionality of python. It expands the connectivity of an IDE to the PC, expands the ability of dictionaries, adds an image scraping and opening functionality, add more math functions, and add an ecryption/decryption feature.
 
 **Currently Tested Platforms**
@@ -35,7 +35,7 @@ PyThings is a python 3 module that expands the functionality of python. It expan
 To contribute, go [here](https://github.com/FormulaCarbon/pythings-Python-Module/blob/main/CONTRIBUTING.md).
 
 <a name='installation'></a>
-## Installation
+## ⚙️Installation
 <details>
 <summary> <b> Unix/MacOS </b> </summary>
    
@@ -55,7 +55,7 @@ py -m pip install --index-url https://test.pypi.org/simple/ --extra-index-url ht
 
 <a name='importing'></a>
 
-## Importing
+## 🛠️Importing
 
 <details>
 <summary> <b> pythings </b> </summary>
@@ -77,7 +77,7 @@ import pythings as pt
 </details>    
 
 <a name='commands'></a>
-## Commands
+## 🤖Commands
 
 <details>
 <summary> <b> test </b> </summary>
@@ -176,7 +176,7 @@ stools.decrypt(enctext, enckey) # decodes text that was encoded with the above m
 </details>   
    
 <a name='license'></a>
-## License
+## ⚖️License
 MIT License
 
 Copyright (c) 2022 Siddharth Kakumanu
@@ -200,7 +200,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 <a name='dev'></a>
-## Dev Info (Ignore this if you are not a dev)
+## 📚Dev Info (Ignore this if you are not a dev)
 
 <details>
 <summary> <b> File System: Unbuilt </b> </summary>
