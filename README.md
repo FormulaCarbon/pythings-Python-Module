@@ -32,7 +32,6 @@ PyThings is a python 3 module that expands the functionality of python. It expan
 - pillow
 - cryptography
 
-To contribute, go [here](https://github.com/FormulaCarbon/pythings-Python-Module/blob/main/CONTRIBUTING.md).
 
 <a name='installation'></a>
 ## ⚙️Installation
@@ -251,3 +250,6 @@ Programming Language: Python 3
 Natural Language: English (USA)
 
 License: MIT
+## ✨Contribution
+Contributions are always welcome! Please read [here](https://github.com/FormulaCarbon/pythings-Python-Module/blob/main/CONTRIBUTING.md) first.
+
